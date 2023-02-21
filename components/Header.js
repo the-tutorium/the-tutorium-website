@@ -8,12 +8,12 @@ export default function Header() {
         <div className="flex flex-row items-center justify-between p-4">
           <a
             href="/"
-            className="text-4xl font-semibold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-red-300 to-amber-300 md:text-gray-900"
+            className="text-4xl font-semibold tracking-tight text-transparent bg-clip-text text-slate-800"
           >
             Mathverse Tutoring
           </a>
           <button
-            className="px-3 py-1 bg-white rounded-full cursor-pointer bg-opacity-30 focus:outline-none md:hidden"
+            className="px-3 py-1 bg-black rounded-full cursor-pointer bg-opacity-30 focus:outline-none md:hidden"
             type="button"
             aria-label="button"
             onClick={() => setNavbarOpen(!navbarOpen)}
@@ -46,7 +46,7 @@ export default function Header() {
               <li>
                 <a
                   href="#mission"
-                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                  className="text-lg hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Mission
                 </a>
@@ -54,7 +54,7 @@ export default function Header() {
               <li>
                 <a
                   href="#courses"
-                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                  className="text-lg hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Courses
                 </a>
@@ -62,7 +62,7 @@ export default function Header() {
               <li>
                 <a
                   href="#team"
-                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                  className="text-lg hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Team
                 </a>
@@ -70,7 +70,7 @@ export default function Header() {
               <li>
                 <a
                   href="#contactus"
-                  className="text-lg text-white md:text-black hover:text-gray-300 md:hover:text-gray-700"
+                  className="text-lg hover:text-gray-300 md:hover:text-gray-700"
                 >
                   Contact Us
                 </a>
@@ -78,7 +78,7 @@ export default function Header() {
               <li>
                 <a
                   href="#courses"
-                  className="bg-white rounded-full bg-opacity-40 px-4 text-lg text-white md:text-black shadow-sm transition-colors duration-75 group gap-[0.25em] inline-flex items-center py-1.5 hover:cursor-pointer hover:bg-opacity-90"
+                  className="bg-white rounded-full bg-opacity-40 px-4 text-lg shadow-sm transition-colors duration-75 group gap-[0.25em] inline-flex items-center py-1.5 hover:cursor-pointer hover:bg-opacity-90"
                 >
                   Sign up
                   <svg

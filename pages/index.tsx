@@ -6,7 +6,7 @@ import Landing from '../components/Landing';
 import Team from '../components/Team';
 import Courses from '../components/Courses';
 import Mission from '../components/Mission';
-import Action from '../components/Action';
+import ContactUs from '../components/ContactUs';
 import Footer from '../components/Footer';
 
 const Home: NextPage = () => {
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="h-full leading-normal text-gray-600">
         <div
-          className="absolute top-0 left-0 right-0 bg-no-repeat bg-cover shadow-lg -bottom-full brightness-90 filter md:bottom-0 md:bg-center md:brightness-100"
+          className="absolute top-0 left-0 right-0 bottom-0 brightness-120 bg-no-repeat bg-cover shadow-lg -bottom-full filter md:bottom-0 brightness-100"
           style={{
             backgroundImage: "url('images/splash.jpeg')",
             zIndex: -1,
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <Mission />
         <Courses />
         <Team />
-        <Action />
+        <ContactUs />
         <Footer />
       </div>
     </>

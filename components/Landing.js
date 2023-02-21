@@ -3,13 +3,13 @@ import Typing from './Typing';
 export default function Landing() {
   return (
     <section>
-      <div className="max-w-3xl mx-8 md:mx-auto">
+      <div className="max-w-5xl mx-8 md:mx-auto">
         <div className="my-20 space-y-10 text-center sm:my-16 md:space-y-14">
           <div className="space-y-5 md:space-y-8">
-            <h1 className="text-3xl font-semibold text-white sm:text-5xl md:text-6xl md:text-gray-800">
+            <h1 className="text-3xl font-semibold sm:text-5xl md:text-6xl text-gray-800">
               <Typing />
             </h1>
-            <h2 className="text-lg text-gray-100 md:text-2xl md:mx-10 md:text-gray-600 w-256">
+            <h2 className="text-lg md:text-2xl md:mx-20 text-gray-600 w-256">
               Mathverse Tutoring is an expert tutoring service that specializes in teaching 5th-8th grade math topics.
               Our team of experienced tutors has a passion for math and for helping students build their math skills and confidence.
               Our goal is to make math accessible and fun for every student.
@@ -35,7 +35,7 @@ export default function Landing() {
                   ></path>
                 </svg>
               </a>
-              <div className="pt-4 text-sm text-gray-200 sm:pt-2 md:text-gray-600">
+              <div className="pt-4 text-sm sm:pt-2 text-gray-600">
                 Coming this summer
                 <br />
               </div>

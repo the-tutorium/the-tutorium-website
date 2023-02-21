@@ -4,6 +4,7 @@ import styled from 'styled-components';
 
 const Element = styled.span`
   text-align: center;
+  white-space: pre;
 `;
 
 const words = ["Welcome to Mathverse Tutoring", "Accelerate your math learning"];
@@ -29,7 +30,6 @@ class Typing extends React.Component {
     return (
       <>
         <Element
-          style={{ whiteSpace: 'pre' }}
           ref={(el) => {
             this.el = el;
           }}
