@@ -1,2 +1,2 @@
-# mathverse-website
-Website of Mathverse Tutoring.
+# The Tutorium
+Website of The Tutorium.
