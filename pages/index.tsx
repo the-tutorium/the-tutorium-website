@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 				<div
 					className="absolute top-0 left-0 right-0 bottom-0 brightness-120 bg-no-repeat bg-cover shadow-lg -bottom-full filter md:bottom-0 brightness-100"
 					style={{
-						backgroundImage: "url('images/splash.jpeg')",
+						backgroundImage: "url('splash.jpeg')",
 						zIndex: -1,
 					}}
 				/>
