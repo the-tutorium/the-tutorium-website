@@ -40,7 +40,7 @@ export default function Landing() {
 								</svg>
 							</a>
 							<div className="pt-4 text-sm sm:pt-2 text-gray-600">
-								Coming July 5th, 2023
+								Coming July 10th, 2023
 								<br />
 							</div>
 						</div>
