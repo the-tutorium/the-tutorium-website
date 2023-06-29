@@ -9,18 +9,18 @@ export default function Mission() {
 							Our Mission
 						</h1>
 						<p className="text-xl text-slate-500 md:text-center md:text-xl">
-							At The Tutorium, our mission is to empower students to become confident, capable, and
-							enthusiastic learners of math. We believe that every student has the potential to excel in math,
-							and we are dedicated to providing personalized and effective tutoring services that help our
-							students achieve their goals. Our mission is driven by our passion for math, our commitment to
-							student success, and our belief in the transformative power of education. We strive to create a
-							supportive and engaging learning environment that helps students develop a deep understanding of
-							math concepts and build the problem-solving skills that are essential for success in school and
-							in life. We are committed to providing our students with the highest quality tutoring services,
-							using the most effective teaching methods and materials available. We believe in fostering a love
-							of learning in our students, and we work to instill a sense of confidence and accomplishment in
-							every student we work with. At The Tutorium, our mission is to inspire a lifelong love of math
-							and to help every student reach their full potential.
+							At The Tutorium, our mission is to empower 5th-8th graders with the knowledge, skills, and
+							confidence they need to excel in mathematics and Python programming. We believe that education is
+							the key to unlocking a world of opportunities, and our dedicated team of tutors is committed to
+							providing personalized and engaging learning experiences that inspire a lifelong love for
+							learning. With our tailored approach, experienced tutors, and nurturing environment, we aim to
+							demystify complex topics, foster critical thinking skills, and instill a growth mindset in our
+							students. Our goal is to equip them with a solid foundation in math and programming, preparing
+							them for future academic challenges and careers in technology. By nurturing their passion for
+							learning and empowering them with essential skills, we strive to shape confident learners and
+							creative problem solvers. At The Tutorium, we are dedicated to making a lasting impact on our
+							students' academic success and personal growth, helping them reach their full potential and
+							create a brighter future.
 						</p>
 					</div>
 				</div>

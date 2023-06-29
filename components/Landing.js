@@ -3,16 +3,20 @@ import Typing from "./Typing";
 export default function Landing() {
 	return (
 		<section>
-			<div className="max-w-5xl mx-8 md:mx-auto">
+			<div className="max-w-6xl mx-8 md:mx-auto">
 				<div className="my-20 space-y-10 text-center sm:my-16 md:space-y-14">
 					<div className="space-y-5 md:space-y-8">
 						<h1 className="text-3xl font-semibold sm:text-5xl md:text-6xl text-gray-800">
 							<Typing />
 						</h1>
 						<h2 className="text-lg md:text-2xl md:mx-20 text-gray-600 w-256">
-							The Tutorium is an expert tutoring service that specializes in teaching 5th-8th grade math
-							topics. Our team of experienced tutors has a passion for math and for helping students build
-							their math skills and confidence. Our goal is to make math accessible and fun for every student.
+							<strong>The Tutorium</strong> is a{" "}
+							<span className="font-extrabold text-transparent text-3xl bg-clip-text bg-gradient-to-r from-purple-500 to-pink-600">
+								free
+							</span>{" "}
+							tutoring service specializing in 5th-8th grade math topics and introductory Python programming.
+							Our passionate tutors help students bolster math skills and venture into coding. Through engaging
+							lessons, we aim to make math and Python accessible and exciting for every learner.
 						</h2>
 					</div>
 					<div className="transition duration-500 ease-in-out transform scale-100 translate-x-0 translate-y-0 opacity-100">

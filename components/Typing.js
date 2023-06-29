@@ -7,7 +7,7 @@ const Element = styled.span`
 	white-space: pre;
 `;
 
-const words = ["Welcome to The Tutorium", "Accelerate your math learning"];
+const words = ["Welcome to The Tutorium", "Accelerate your math learning", "Unleash your programming potential"];
 
 class Typing extends React.Component {
 	componentDidMount() {
